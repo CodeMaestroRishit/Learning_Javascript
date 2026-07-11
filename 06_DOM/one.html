@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom Learning</title>
+   
     <style>
         .bg-black{
             background-color: black;
@@ -13,7 +14,8 @@
 </head>
 <body class="bg-black">
     <div >
-    <h1 id="title" class="heading">Dom Learning</h1>
+    <h1 id="title" class="heading">Dom Learning<span style="display: none;"> hello sreepriya</span></h1>
+     
     <p>lorem ipsum</p>
     <h2>something</h2>
     <h2>something</h2>
@@ -30,3 +32,31 @@
     
 </body>
 </html>
+<!-- 
+//document.getElementById('title') It is to target a specific parameter
+
+//document.getElementById('title'). id=> we can put .id to get specific id
+
+/document.getElementById('title').getAtrribute=> we can get the attributes of the selected title
+
+/document.getElementById('title').setAtrribiute=> It rewrites the Atrribute and deletes the prev
+
+//title.textContent=> it is for finding Text of a specific attributes
+
+//title.innerText=> shows only the frontend content
+'Dom Learning'
+
+//title.textContent =>shows the hidden backend content too
+'Dom Learning hello sreepriya'
+
+// document.querySelector('h1')=> it selects the first h1
+
+//const myul=document.querySelector('ul')
+console.log(myul)
+
+//document.getElementsByClassName('last item')
+HTMLCollection(4) [li.last.item, li.last.item, li.last.item, li.last.item]
+
+//Array.from('last item')=> to convert anything in an array
+
+-->
